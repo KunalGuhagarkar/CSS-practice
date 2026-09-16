@@ -1,0 +1,23 @@
+/* Simple Border */
+#tiger1 {
+    border: 2px solid red;
+}
+
+/* Different Borders: solid, dotted, double, dashed */
+#tiger2 {
+    border-top: 10px solid red;
+    border-left: 10px dotted green;
+    border-bottom: 10px double blue; 
+    border-right: 10px dashed yellow;
+}
+
+/* Outline */
+#tiger3 {
+    outline: 5px solid gold;
+}
+
+/* border radius: rounder borders */
+#tiger4 {
+    border: 5px solid lime;
+    border-radius: 20px;
+}
