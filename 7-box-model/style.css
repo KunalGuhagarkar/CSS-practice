@@ -1,4 +1,5 @@
 div {
     height: 20vh;
-    overflow: scroll;
+    overflow: hidden;
 }
+
