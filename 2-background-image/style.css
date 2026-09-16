@@ -1,63 +1,63 @@
 /* Background Size */
 
 /* You can use contain to scale the image as large as possible without cropping or stretching. */
-/* body {
+body {
     background-image: url("https://mamp.one/wp-content/uploads/2024/09/image-resources2.jpg");
     background-size: contain;
     min-height: 100px;
-} */
+}
 
 /* Covers the entire body with the image */
-/* body {
+body {
     background-image: url("https://mamp.one/wp-content/uploads/2024/09/image-resources2.jpg");
     background-size: cover;
-} */
+}
 
 /* Background Repeat */
 
 /* Background with contain but no repeat */
-/* body {
+body {
     background-image: url("https://mamp.one/wp-content/uploads/2024/09/image-resources2.jpg");
     background-size: contain;
     min-height: 100px;
     background-repeat: no-repeat;
-} */
+}
 
 /* Background with contain and repeats only in x axis */
-/* body {
+body {
     background-image: url("https://mamp.one/wp-content/uploads/2024/09/image-resources2.jpg");
     background-size: contain;
     background-repeat: repeat-x;
     min-height: 100px;
-} */
+}
 
 /* Background with contain and repeats only in y axis */
-/* body {
+body {
     background-image: url("https://mamp.one/wp-content/uploads/2024/09/image-resources2.jpg");
     background-size: contain;
     background-repeat: repeat-y;
     min-height: 100px;
-} */
+}
 
 /* Background Position */
 
 /* center, left, right, top, bottom */
-/* body {
+body {
     background-image: url("https://mamp.one/wp-content/uploads/2024/09/image-resources2.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     min-height: 100px;
     background-position: center;
-} */
+}
 
 /* Background Attachment */
-/* div {
+div {
     height: 500px;
     width: auto;
     background-image: url("https://mamp.one/wp-content/uploads/2024/09/image-resources2.jpg");
     background-position: center top;
     background-attachment: fixed;
-} */
+}
 
 /* To do all this just do using `background` */
 

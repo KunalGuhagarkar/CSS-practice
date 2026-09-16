@@ -1,0 +1,12 @@
+
+/* linear gradient */
+.linear-gradient {
+    background: linear-gradient(to right, red, yellow);
+    height: 40vh;
+}
+
+/* radial gradient */
+.radial-gradient {
+    background: radial-gradient(circle, red 0%, red 30%, white 30%, white 60%, blue 60%);
+    height: 60vh;
+}
