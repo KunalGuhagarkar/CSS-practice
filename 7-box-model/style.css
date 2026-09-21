@@ -67,7 +67,8 @@
 
 /* border with customizations */
 .box {
-    border-color: blue;
+    border-color: blue green yellow orange;
     border-width: 5px 10px 15px 20px;
+    border-style: solid dashed;
 
 }
