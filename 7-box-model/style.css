@@ -34,10 +34,19 @@
 } */
 
 /* scale */
-.box {
+/* .box {
     width: 100px;
     height: 100px;
     background-color: red;
     margin: 100px;
     transform: scale(1.5, 2)
+} */
+
+/* Combination of all (translate, rotate, scale) */
+.box {
+    margin: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    
 }
