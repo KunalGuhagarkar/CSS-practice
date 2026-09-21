@@ -61,6 +61,11 @@
 }
 
 /* border */
-.box {
+/* .box {
     border: 5px solid blue;
+} */
+
+/* border with customizations */
+.box {
+    border-width: 5px 10px 15px 20px
 }
