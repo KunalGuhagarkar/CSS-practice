@@ -69,3 +69,8 @@
     border-width: 5px 10px 15px 20px;
     border-style: solid dashed dotted double;
 }
+
+/* margins */
+.box {
+    margin: 5px, 10px, 15px, 25px;
+}
