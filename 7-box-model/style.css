@@ -16,3 +16,8 @@ body {
     border: 2px black solid;
 }
 
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
