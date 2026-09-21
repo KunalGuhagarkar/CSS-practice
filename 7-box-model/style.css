@@ -12,9 +12,9 @@
 } */
 
 /* Transform */
-body {
+/* body {
     border: 2px black solid;
-}
+} */
 
 /* translate */
 /* .box {
@@ -30,4 +30,5 @@ body {
     height: 200px;
     background-color: red;
     transform: rotate(45deg);
+    margin: 100px;
 }
