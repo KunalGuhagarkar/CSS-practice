@@ -43,10 +43,10 @@
 } */
 
 /* Combination of all (translate, rotate, scale) */
-.box {
+/* .box {
     margin: 100px;
     width: 200px;
     height: 200px;
     background-color: red;
     transform: translate(100px, 200px) rotate(45deg) scale(1.5, 2.5);
-}
+} */
