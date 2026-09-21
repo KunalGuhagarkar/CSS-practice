@@ -69,6 +69,6 @@
 .box {
     border-color: blue green yellow orange;
     border-width: 5px 10px 15px 20px;
-    border-style: solid dashed;
+    border-style: solid dashed dotted double;
 
 }
