@@ -50,3 +50,13 @@
     background-color: red;
     transform: translate(100px, 200px) rotate(45deg) scale(1.5, 2.5);
 } */
+
+
+/* padding */
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    padding: 15px;
+}
