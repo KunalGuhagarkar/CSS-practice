@@ -16,9 +16,18 @@ body {
     border: 2px black solid;
 }
 
-.box {
+/* translate */
+/* .box {
     width: 200px;
     height: 200px;
     background-color: red;
     transform: translate(50px, 100px);
+} */
+
+/* rotate */
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transform: rotate(45deg);
 }
