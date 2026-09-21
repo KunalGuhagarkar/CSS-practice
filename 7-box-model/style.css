@@ -39,4 +39,5 @@
     height: 100px;
     background-color: red;
     margin: 100px;
+    transform: scale(1.5, 2)
 }
