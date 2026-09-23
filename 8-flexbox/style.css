@@ -1,0 +1,529 @@
+/* Flex containers and properties */
+
+/* div {
+    width: 200px;
+    height: 100px;
+    display: flex
+}
+
+#first-div {
+    background-color: red;
+}
+
+#second-div {
+    background-color: blue;
+}
+
+#third-div {
+    background-color: green;
+    
+} */
+
+/* flex properties */
+
+/* flex direction */
+
+/* row-reverse */
+/* main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+div {
+    width: 200px;
+    height: 100px;
+}
+
+#first-div {
+    background-color: red;
+}
+
+#second-div {
+    background-color: blue;
+}
+
+#third-div {
+    background-color: green;
+    
+} */
+
+/* column */
+/* main {
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    width: 200px;
+    height: 100px;
+}
+
+#first-div {
+    background-color: red;
+}
+
+#second-div {
+    background-color: blue;
+}
+
+#third-div {
+    background-color: green;
+    
+} */
+
+/* column-reverse */
+
+/* main {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+div {
+    width: 200px;
+    height: 100px;
+}
+
+#first-div {
+    background-color: red;
+}
+
+#second-div {
+    background-color: blue;
+}
+
+#third-div {
+    background-color: green;
+} */
+
+/* flex-wrap */
+
+/* wrap */
+/* main {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+div {
+    width: 80px;
+    height: 50px;
+}
+
+#first-div {
+    background-color: red;
+}
+
+#second-div {
+    background-color: blue;
+}
+
+#third-div {
+    background-color: green;
+} */
+
+/* flex-flow / flex-direction and flex-wrap */
+/* main {
+    width: 200px;
+    height: 120px;
+    display: flex;
+    flex-flow: column wrap-reverse;
+    border: 2px solid black;
+}
+
+div {
+    width: 80px;
+    height: 50px;
+}
+
+#first-div {
+    background-color: red;
+}
+
+#second-div {
+    background-color: blue;
+}
+
+#third-div {
+    background-color: green;
+} */
+
+/* justify-content */
+
+/* flex-start */
+/* main {
+    display: flex;
+    justify-content: flex-start;
+    border: 2px solid black;
+}
+
+div {
+    width: 80px;
+    height: 50px;
+}
+
+#first-div {
+    background-color: red;
+}
+
+#second-div {
+    background-color: blue;
+}
+
+#third-div {
+    background-color: green;
+} */
+
+/* flex-end */
+/* main {
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid black;
+}
+
+div {
+    width: 80px;
+    height: 50px;
+}
+
+#first-div {
+    background-color: red;
+}
+
+#second-div {
+    background-color: blue;
+}
+
+#third-div {
+    background-color: green;
+} */
+
+/* center */
+/* main {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+div {
+    width: 80px;
+    height: 50px;
+}
+
+#first-div {
+    background-color: red;
+}
+
+#second-div {
+    background-color: blue;
+}
+
+#third-div {
+    background-color: green;
+} */
+
+/* space-between */
+/* main {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+
+div {
+    width: 80px;
+    height: 50px;
+}
+
+#first-div {
+    background-color: red;
+}
+
+#second-div {
+    background-color: blue;
+}
+
+#third-div {
+    background-color: green;
+} */
+
+/* space-around */
+/* main {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+
+div {
+    width: 80px;
+    height: 50px;
+}
+
+#first-div {
+    background-color: red;
+}
+
+#second-div {
+    background-color: blue;
+}
+
+#third-div {
+    background-color: green;
+} */
+
+/* space-evenly */
+/* main {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black;
+}
+
+div {
+    width: 80px;
+    height: 50px;
+}
+
+#first-div {
+    background-color: red;
+}
+
+#second-div {
+    background-color: blue;
+}
+
+#third-div {
+    background-color: green;
+} */
+
+/* align-items */
+
+/* center */
+/* main {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    border: 2px solid black;
+}
+
+div {
+    width: 80px;
+    height: 50px;
+}
+
+#first-div {
+    background-color: red;
+}
+
+#second-div {
+    background-color: blue;
+}
+
+#third-div {
+    background-color: green;
+} */
+
+/* flex-start */
+/* main {
+    display: flex;
+    height: 200px;
+    align-items: flex-start;
+    border: 2px solid black;
+}
+
+div {
+    width: 80px;
+    height: 50px;
+}
+
+#first-div {
+    background-color: red;
+}
+
+#second-div {
+    background-color: blue;
+}
+
+#third-div {
+    background-color: green;
+} */
+
+/* flex-end */
+/* main {
+    display: flex;
+    height: 200px;
+    align-items: flex-end;
+    border: 2px solid black;
+}
+
+div {
+    width: 80px;
+    height: 50px;
+}
+
+#first-div {
+    background-color: red;
+}
+
+#second-div {
+    background-color: blue;
+}
+
+#third-div {
+    background-color: green;
+} */
+
+/* stretch */
+/* main {
+    display: flex;
+    height: 200px;
+    align-items: stretch;
+    border: 2px solid black;
+}
+
+div {
+    width: 80px;
+    height: 50px;
+}
+
+#first-div {
+    background-color: red;
+}
+
+#second-div {
+    background-color: blue;
+    height: auto;
+}
+
+#third-div {
+    background-color: green;
+} */
+
+/* align-self */
+
+/* stretch */
+/* main {
+    display: flex;
+    height: 200px;
+    align-items: flex-start;
+    border: 2px solid black;
+}
+
+div {
+    width: 80px;
+    height: 50px;
+}
+
+#first-div {
+    background-color: red;
+}
+
+#second-div {
+    background-color: blue;
+    align-self: stretch;
+}
+
+#third-div {
+    background-color: green;
+} */
+
+/* center */
+/* main {
+    display: flex;
+    height: 200px;
+    align-items: flex-start;
+    border: 2px solid black;
+}
+
+div {
+    width: 80px;
+    height: 50px;
+}
+
+#first-div {
+    background-color: red;
+}
+
+#second-div {
+    background-color: blue;
+    align-self: center;
+}
+
+#third-div {
+    background-color: green;
+} */
+
+/* flex-start */
+/* main {
+    display: flex;
+    height: 200px;
+    align-items: flex-start;
+    border: 2px solid black;
+}
+
+div {
+    width: 80px;
+    height: 50px;
+}
+
+#first-div {
+    background-color: red;
+}
+
+#second-div {
+    background-color: blue;
+    align-self: flex-start;
+}
+
+#third-div {
+    background-color: green;
+} */
+
+/* flex-end */
+/* main {
+    display: flex;
+    height: 200px;
+    align-items: flex-start;
+    border: 2px solid black;
+}
+
+div {
+    width: 80px;
+    height: 50px;
+}
+
+#first-div {
+    background-color: red;
+}
+
+#second-div {
+    background-color: blue;
+    align-self: flex-end;
+}
+
+#third-div {
+    background-color: green;
+} */
+
+main {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+div {
+    width: 80px;
+    height: 50px;
+}
+
+#first-div {
+    background-color: red;
+}
+
+#second-div {
+    background-color: blue;
+}
+
+#third-div {
+    background-color: green;
+}
