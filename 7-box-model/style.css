@@ -160,3 +160,35 @@ div {
     margin: 0;
     padding: 0;
 } */
+
+/* CSS filter property */
+
+/* blur */
+.blur-img {
+    filter: blur(5px);
+}
+
+/* brightness */
+.brightness-img {
+    filter: brightness(150%);
+}
+
+/* grayscale */
+.grayscale-img {
+    filter: grayscale(100%);
+}
+
+/* sepia */
+.sepia-img {
+    filter: sepia(80%);
+}
+
+/* hue-rotate */
+.hue-rotate-img {
+    filter: hue-rotate(300deg);
+}
+
+/* combination of filters */
+.combination-filter-img {
+    filter: contrast(150%) brightness(120%) sepia(50%);
+}
