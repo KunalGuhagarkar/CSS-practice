@@ -1,3 +1,79 @@
 h1 {
     color: red;
 }
+
+/* slide-in animation */
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.sliding-text {
+    animation: slide-in 3s ease-out infinite;
+}
+
+/* color change animation */
+.complex-animation {
+    animation-name: color-change;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;    
+}
+
+@keyframes color-change {
+    0% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: green;
+    }
+
+    100% {
+        background-color: blue;
+    }
+}
+
+/* transition */
+.button {
+    background-color: blue;
+    transition: background-color 2s;
+}
+
+/* transition is for simpler effects */
+
+button:hover {
+    background-color: red;
+}
+
+/* reduced motion query */
+@keyframes animation {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.animation {
+    animation: animation 2s ease-in infinite alternate;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .animation {
+        animation: none;
+    }
+}
